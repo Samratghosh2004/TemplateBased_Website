@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/d9144870ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span> Web </span>Designer & <span>C++</span> Programmer</p>
+                <h1>Hi, I am <span>Samrat Ghosh</span> <br> From India, West Bengal</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------About------------------- -->
+    
+<!-- -------------------Services------------------ -->
+
+<!-- -------------------Portfolio-------------------- -->
+
+<!-- -----------------Contact------------------ -->
+
+   
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+           sidemeu.style.right = "0";
+        }
+        function closemenu(){
+          sidemeu.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>

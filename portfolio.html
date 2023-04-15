@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio > works</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/d9144870ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="portfolio">
+        <div class="container">
+
+            <nav>
+                <img src="" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <h1 class ="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/HTML-CSS-J.S- programing/My_Portfolio/images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Created Game using Unity engine</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda voluptatum expedita quae.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/HTML-CSS-J.S- programing/My_Portfolio/images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Online Food Delivery Site</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda voluptatum expedita quae.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/HTML-CSS-J.S- programing/My_Portfolio/images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Competitive Coding</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda voluptatum expedita quae.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div> 
+
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+           sidemeu.style.right = "0";
+        }
+        function closemenu(){
+          sidemeu.style.right = "-200px";
+        }
+
+
+    </script>
+
+</body>
+</html>
